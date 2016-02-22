@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#content {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

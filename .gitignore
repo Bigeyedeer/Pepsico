@@ -1,0 +1,7 @@
+*.zip
+*.7z
+*.blend1
+._*
+tmp/
+backup/
+scorm/mod?/content/course/*

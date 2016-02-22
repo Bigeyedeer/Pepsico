@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Lato;
+  src: url(../course/shared/fonts/Lato-Bold.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #000;
+  overflow: hidden;
+}
+
+#content {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#nav_button {
+  position: fixed;
+  left: 3px;
+  top: 3px;
+}
+
+#menu_lightbox{
+  display: none;
+  width:100%;
+  height:100%;
+  position:fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  background-color:rgba(0,0,0,0.8); 
+}
+
+#menu_wrapper {
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#menu {
+    /*border: 5px solid #122B5F;*/
+/*  transform: translate(-50%, -50%);*/
+    /*display: none;*/
+    border: solid 5px #122B5F;
+    border-radius: 25px 25px 5px 25px;
+    padding: 18px;
+    background:#FFF;
+    color:#122B5F;
+}
+
+#menu .button {
+  margin: 5px;
+    color: #122B5F;
+    font-weight: 700;
+    border: 3px solid #122B5F;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu .button:hover {
+    background-color: #122B5F;
+  color:#fff;
+}
+
+#menu .button + .button {
+    margin-top: 5px;
+  /*cursor: default;*/
+}

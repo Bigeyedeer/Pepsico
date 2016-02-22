@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Manager</title>
+  <link rel="stylesheet" type="text/css" href="css/course_manager.css">
+  <script type="text/javascript" src="course/shared/js/APIWrapper.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_events.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_scorm.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_scorm_course.js"></script>
+  <script type="text/javascript">
+    var course;
+    cm.scorm.add_listener("init", function() {
+      course = new cm.scorm.Course(document.getElementById("content"), "course", "Office Environment", "Health and Safety", [
+          ["mod_1_sec_1", "Ergonomics"],
+          ["mod_1_sec_2", "Safe Lifting"],
+          ["mod_1_sec_3", "Environmental Conservation"],
+          ["mod_1_sec_4_p1", "Emergency & Evacuation (Part 1)"],
+          ["mod_1_sec_4_p2", "Emergency & Evacuation (Part 2)"],
+          ["mod_1_sec_4_p3", "Emergency & Evacuation (Part 3)"],
+          ["mod_1_sec_5", "Emergency Assembly"]
+        ]);
+      course.load();
+    });
+  </script>
+</head>
+<body>
+  <iframe id="content"></iframe>
+</body>
+</html>
