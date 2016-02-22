@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest identifier="MultipleAssetsManifest" version="1.1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="pct">
+    <organization identifier="pct">
+      <title>Pulse Compliance Test</title>
+      <item identifier="course_manager" identifierref="course_manager_res">
+        <title>SCORM Variables</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="course_manager_res" type="webcontent" adlcp:scormtype="sco" href="content/index.html">
+      <file href="content/index.html" />
+      <file href="content/css/course_manager.css" />
+      <dependency identifierref="javascript_res" />
+      <dependency identifierref="scorm_table_res" />
+    </resource>
+    <resource identifier="scorm_table_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/scorm_table/index.html" />
+      <file href="content/course/scorm_table/js/cm_scorm_table.js" />
+      <dependency identifierref="javascript_res" />
+    </resource>
+    <resource identifier="javascript_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/shared/js/APIWrapper.js" />
+      <file href="content/course/shared/js/cm_events.js" />
+      <file href="content/course/shared/js/cm_scorm.js" />
+    </resource>
+  </resources>
+</manifest>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest identifier="MultipleAssetsManifest" version="1.1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="pepsico_m1_beta">
+    <organization identifier="pepsico_m1_beta">
+      <title>Pepsico Module 2 Beta</title>
+      <item identifier="module_2" identifierref="module_2_res">
+        <title>Module 2</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="module_2_res" type="webcontent" adlcp:scormtype="sco" href="content/index.html">
+      <file href="content/index.html" />
+      <file href="content/css/course_manager.css" />
+      <dependency identifierref="mod_2_sec_2_res" />
+      <dependency identifierref="mod_2_sec_3_res" />
+      <dependency identifierref="mod_2_sec_4_res" />
+      <dependency identifierref="mod_2_sec_5_res" />
+    </resource>
+    <resource identifier="mod_2_sec_2_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/mod_2_sec_2/641b44380bcddf1ae2d3c36562474dec.png" />
+      <file href="content/course/mod_2_sec_2/76f1fc7038c92292b669d625c047028b.png" />
+      <file href="content/course/mod_2_sec_2/7ba50516080107c75b897e3470ef1f00.png" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_answer.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_commissioning.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_commissioning2.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_information.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_information2.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_outofservice.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_outofservice2.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_personal.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_personal2.mp3" />
+      <file href="content/course/mod_2_sec_2/audio/s01q01_question.mp3" />
+      <file href="content/course/mod_2_sec_2/d2b1ea737534331c8d1f4c9816680939.png" />
+      <file href="content/course/mod_2_sec_2/index.html" />
+      <file href="content/course/mod_2_sec_2/js/section_02.js" />
+      <file href="content/course/mod_2_sec_2/mod_2_sec_2.bin" />
+      <file href="content/course/mod_2_sec_2/mod_2_sec_2.json" />
+      <file href="content/course/mod_2_sec_2/smaa_area_texture.png" />
+      <file href="content/course/mod_2_sec_2/smaa_search_texture.png" />
+      <file href="content/course/mod_2_sec_2/video/section_02.mp4" />
+      <dependency identifierref="shared_res" />
+    </resource>
+    <resource identifier="mod_2_sec_3_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/mod_2_sec_3/140ff697c3c7a26177a6c11a3b461137.png" />
+      <file href="content/course/mod_2_sec_3/869153b880ca6c121e61cb134b4b0434.jpg" />
+      <file href="content/course/mod_2_sec_3/93cc9886f53445fd4874e18d48220507.jpg" />
+      <file href="content/course/mod_2_sec_3/audio/s03q02_answer.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q02_incorrect.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q02_notfirst.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q02_question.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q02_tryagain.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q03_notneeded.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q03_notsafe.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q03_notsfirst.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q03_question.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q04_answer.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q04_answer2.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q04_notneeded.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q04_notsafe.mp3" />
+      <file href="content/course/mod_2_sec_3/audio/s03q04_question.mp3" />
+      <file href="content/course/mod_2_sec_3/b769db46ec1a04cd6ed06c41adf7571d.jpg" />
+      <file href="content/course/mod_2_sec_3/d68874b6284f55d3fe16cb5e81c371ca.jpg" />
+      <file href="content/course/mod_2_sec_3/d69b7dbfe23e43b82d38448c0cd7a006.png" />
+      <file href="content/course/mod_2_sec_3/e2353951288177f1c4ec5e301b25ce9d.png" />
+      <file href="content/course/mod_2_sec_3/index.html" />
+      <file href="content/course/mod_2_sec_3/js/section_03.js" />
+      <file href="content/course/mod_2_sec_3/mod_2_sec_3.bin" />
+      <file href="content/course/mod_2_sec_3/mod_2_sec_3.json" />
+      <file href="content/course/mod_2_sec_3/smaa_area_texture.png" />
+      <file href="content/course/mod_2_sec_3/smaa_search_texture.png" />
+      <file href="content/course/mod_2_sec_3/video/section_03.mp4" />
+      <dependency identifierref="shared_res" />
+    </resource>
+    <resource identifier="mod_2_sec_4_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/mod_2_sec_4/1c1068f46d7f0a6d95cd4ecca499db6c.png" />
+      <file href="content/course/mod_2_sec_4/313d064ac013d8ca38c0fea4042ef8dc.jpg" />
+      <file href="content/course/mod_2_sec_4/32a1f97092ed4f07b7e56eddf86018bb.png" />
+      <file href="content/course/mod_2_sec_4/503844d8e0a324385bae2c0e4ec064f5.jpg" />
+      <file href="content/course/mod_2_sec_4/audio/s04q05_answer.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q05_notfirst.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q05_question.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q06_answer.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q06_else.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q06_question.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q07_answer.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q07_notright.mp3" />
+      <file href="content/course/mod_2_sec_4/audio/s04q07_question.mp3" />
+      <file href="content/course/mod_2_sec_4/b769db46ec1a04cd6ed06c41adf7571d.jpg" />
+      <file href="content/course/mod_2_sec_4/bba571551c38136aa4440a773a491eea.png" />
+      <file href="content/course/mod_2_sec_4/ff258596d35ed0676fc26b163d15015b.jpg" />
+      <file href="content/course/mod_2_sec_4/index.html" />
+      <file href="content/course/mod_2_sec_4/js/scene_anim.js" />
+      <file href="content/course/mod_2_sec_4/js/section_04.js" />
+      <file href="content/course/mod_2_sec_4/mod_2_sec_4.bin" />
+      <file href="content/course/mod_2_sec_4/mod_2_sec_4.json" />
+      <file href="content/course/mod_2_sec_4/smaa_area_texture.png" />
+      <file href="content/course/mod_2_sec_4/smaa_search_texture.png" />
+      <file href="content/course/mod_2_sec_4/video/section_04.mp4" />
+      <dependency identifierref="shared_res" />
+    </resource>
+    <resource identifier="mod_2_sec_5_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/mod_2_sec_5/140ff697c3c7a26177a6c11a3b461137.png" />
+      <file href="content/course/mod_2_sec_5/869153b880ca6c121e61cb134b4b0434.jpg" />
+      <file href="content/course/mod_2_sec_5/audio/s05q08_answer.mp3" />
+      <file href="content/course/mod_2_sec_5/audio/s05q08_notright.mp3" />
+      <file href="content/course/mod_2_sec_5/audio/s05q08_question.mp3" />
+      <file href="content/course/mod_2_sec_5/b769db46ec1a04cd6ed06c41adf7571d.jpg" />
+      <file href="content/course/mod_2_sec_5/d68874b6284f55d3fe16cb5e81c371ca.jpg" />
+      <file href="content/course/mod_2_sec_5/d69b7dbfe23e43b82d38448c0cd7a006.png" />
+      <file href="content/course/mod_2_sec_5/e2353951288177f1c4ec5e301b25ce9d.png" />
+      <file href="content/course/mod_2_sec_5/index.html" />
+      <file href="content/course/mod_2_sec_5/js/section_05.js" />
+      <file href="content/course/mod_2_sec_5/mod_2_sec_5.bin" />
+      <file href="content/course/mod_2_sec_5/mod_2_sec_5.json" />
+      <file href="content/course/mod_2_sec_5/smaa_area_texture.png" />
+      <file href="content/course/mod_2_sec_5/smaa_search_texture.png" />
+      <file href="content/course/mod_2_sec_5/video/section_05.mp4" />
+      <file href="content/course/mod_2_sec_5/video/section_06.mp4" />
+      <dependency identifierref="shared_res" />
+    </resource>
+    <resource identifier="shared_res" type="webcontent" adlcp:scormtype="asset">
+      <file href="content/course/shared/css/animate.css" />
+      <file href="content/course/shared/css/prototype_B.css" />
+      <file href="content/course/shared/css/prototype_G.css" />
+      <file href="content/course/shared/css/prototype_LB.css" />
+      <file href="content/course/shared/css/prototype_O.css" />
+      <file href="content/course/shared/css/prototype_R.css" />
+      <file href="content/course/shared/fonts/Lato-Bold.ttf" />
+      <file href="content/course/shared/images/arrows_up_down.svg" />
+      <file href="content/course/shared/images/close.svg" />
+      <file href="content/course/shared/images/correct.svg" />
+      <file href="content/course/shared/images/correct_2.svg" />
+      <file href="content/course/shared/images/cross.svg" />
+      <file href="content/course/shared/images/eye_perspective.svg" />
+      <file href="content/course/shared/images/eye_side.svg" />
+      <file href="content/course/shared/images/eye_top.svg" />
+      <file href="content/course/shared/images/hover_note_check.svg" />
+      <file href="content/course/shared/images/hover_note_cross.svg" />
+      <file href="content/course/shared/images/hover_note_info.svg" />
+      <file href="content/course/shared/images/incorrect.svg" />
+      <file href="content/course/shared/images/loader.gif" />
+      <file href="content/course/shared/images/menu.svg" />
+      <file href="content/course/shared/images/mod_1_sec_1.svg" />
+      <file href="content/course/shared/images/mod_1_sec_2.svg" />
+      <file href="content/course/shared/images/mod_1_sec_3.svg" />
+      <file href="content/course/shared/images/mod_1_sec_4.svg" />
+      <file href="content/course/shared/images/mod_2.svg" />
+      <file href="content/course/shared/images/navigation.svg" />
+      <file href="content/course/shared/images/q_check.svg" />
+      <file href="content/course/shared/images/q_cross.svg" />
+      <file href="content/course/shared/images/skip.png" />
+      <file href="content/course/shared/images/skip.svg" />
+      <file href="content/course/shared/images/slider_vert_dot.svg" />
+      <file href="content/course/shared/js/APIWrapper.js" />
+      <file href="content/course/shared/js/b4w.min.js" />
+      <file href="content/course/shared/js/buttons.js" />
+      <file href="content/course/shared/js/camera_management.js" />
+      <file href="content/course/shared/js/clock_sim.js" />
+      <file href="content/course/shared/js/cm_events.js" />
+      <file href="content/course/shared/js/cm_scorm.js" />
+      <file href="content/course/shared/js/cm_scorm_course.js" />
+      <file href="content/course/shared/js/cutscene.js" />
+      <file href="content/course/shared/js/events.js" />
+      <file href="content/course/shared/js/jquery-1.8.0.min.js" />
+      <file href="content/course/shared/js/jquery.balancetext.min.js" />
+      <file href="content/course/shared/js/math_extra.js" />
+      <file href="content/course/shared/js/notifications.js" />
+      <file href="content/course/shared/js/pace.min.js" />
+      <file href="content/course/shared/js/planes.js" />
+      <file href="content/course/shared/js/prototype.js" />
+      <file href="content/course/shared/js/quiz.js" />
+      <file href="content/course/shared/js/scene_anim.js" />
+      <file href="content/course/shared/js/scene_cache.js" />
+      <file href="content/course/shared/js/scene_mouse.js" />
+      <file href="content/course/shared/js/scorm.js" />
+      <file href="content/course/shared/js/sets.js" />
+      <file href="content/course/shared/js/time_slices.js" />
+      <file href="content/course/shared/js/uranium.js" />
+      <file href="content/course/shared/js/uranium.js.mem" />
+      <file href="content/course/shared/js/widget.js" />
+    </resource>
+  </resources>
+</manifest>

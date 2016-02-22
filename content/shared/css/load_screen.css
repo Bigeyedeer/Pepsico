@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+body {
+  background: #000;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 165px;
+  width: 100%;
+  background: #fff;
+  background-image: url('../images/loader.gif'); 
+  background-repeat: no-repeat;
+  background-position: center; 
+  overflow: hidden;
+  border-top: 4000px #fff solid;
+  border-bottom: 4000px #fff solid;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:after {
+  display: block;
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  content: attr(data-progress-text);
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+
+  font-size: 1.25rem;
+  line-height: 1;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}

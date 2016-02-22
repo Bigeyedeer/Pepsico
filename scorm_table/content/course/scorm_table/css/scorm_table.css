@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+tr:hover {
+  background-color: #eee;
+}
+
+td {
+  font-size: 1em;
+}
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  font-size: 1em;
+}

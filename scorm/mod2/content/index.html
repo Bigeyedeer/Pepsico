@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Manager</title>
+  <link rel="stylesheet" type="text/css" href="css/course_manager.css">
+  <script type="text/javascript" src="course/shared/js/APIWrapper.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_events.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_scorm.js"></script>
+  <script type="text/javascript" src="course/shared/js/cm_scorm_course.js"></script>
+  <script type="text/javascript">
+    var course;
+    cm.scorm.add_listener("init", function() {
+      course = new cm.scorm.Course(document.getElementById("content"), "course", "The Fundamentals of", "Lock Out Tag Out", [
+          ["mod_2_sec_2", "Lockout Station"],
+          ["mod_2_sec_3", "Working on the Equipment"],
+          ["mod_2_sec_4", "Restoring Functionality"],
+          ["mod_2_sec_5", "Prolonged Work"]
+        ]);
+      course.load();
+    });
+  </script>
+</head>
+<body>
+  <iframe id="content"></iframe>
+</body>
+</html>
